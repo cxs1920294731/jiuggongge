@@ -1,0 +1,62 @@
+	*{
+         margin: 0px;
+         padding: 0px;
+      }
+      body{
+         text-align: center;
+      }
+      .main{
+         height: 400px;
+         width: 400px;
+        
+         margin: 10px auto;
+         text-align: center;
+      }
+      .contain{
+         
+         height: 70%;
+         width: 70%;
+         margin: 10px auto;
+         margin-bottom: 1px;
+      }
+      .start{
+         width: 70%;
+         height: 40px;
+         margin-bottom: 10px;
+      }
+      .stop{
+         width: 70%;
+         height: 40px;
+      }
+      ul{
+         list-style: none;
+      }
+      li div{
+			border: 1px ;
+         height: 98%;
+         width: 30%;
+         float: left;
+         margin: 3px 3px 3px 3px;
+         border-radius: 5px;
+         background-color: #ffa600;
+		}
+      li{
+         clear: both;
+         width: 98%;
+         height: 30%;
+         margin-left: 3px;
+         list-style: none;
+      }
+      button{
+         color: #ee9900;
+         border-color: #ee9900;
+         border: 1px solid;
+         border-radius: 5px;
+         box-shadow:0;
+         background-color: white;
+      }
+      button:hover{
+         background-color: #ee9900;
+         
+         color: white;
+      }
